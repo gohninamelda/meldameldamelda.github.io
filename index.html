@@ -1,4 +1,4 @@
-<h1> hello my name is melda </h1>
+<h1> hello, my name is melda 👋🏼 </h1>
 <br>
 name: <input type="text">
 <br>
@@ -7,15 +7,45 @@ name: <input type="text">
 <img src="images/wad-dp.png" width="159" height="211.25" class="dp"/>
 
 <style>
+     body {
+          background-color: black;
+          color: rgb(230, 216, 193);
+          font-family: 'Courier New', Courier, monospace;
+     }
+
+     h1 {
+          color: rgb(252, 242, 229);
+     }
+
+     h2 {
+          color: rgb(203, 185, 168);
+     }
+     
      .dp {
-          border: aliceblue outset 5px;
+          border: rgb(255, 242, 220) outset 5px;
           border-radius: 50%;
+     }
+
+     #intro {
+          padding: 10px 20px;
+          border: 2px dotted rgb(255, 242, 220);
+          width: 50%;
+     }
+
+     .btn {
+          background-color: palegoldenrod;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 20px;
+          font-family: inherit;
+          font-weight: bold;
      }
 </style>
 
-<br>
+<br></br>
+
 <h2>self-intro</h2>
-<p>hello! my name is melda and i'm starting my sophomore year this semester. 
+<p id="intro">hello! my name is melda and i'm starting my sophomore year this semester. 
      <br>
      i am a management comms ta - business module! - and am interning part-time 
      <br>
@@ -45,6 +75,6 @@ name: <input type="text">
   </tr>
 </table>     
 
-<br>
+<br></br>
 
-<input type="submit">
+<input class="btn" type="submit">
